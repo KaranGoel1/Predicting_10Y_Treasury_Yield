@@ -38,3 +38,7 @@ Change in CPI data citation:
 
 OECD, "Main Economic Indicators - complete database", Main Economic Indicators (database),http://dx.doi.org/10.1787/data-00052-en (October 23, 2021)
 Copyright, 2016, OECD. Reprinted with permission.
+
+Inflation Expectation data citation:
+
+Surveys of Consumers, University of Michigan, University of Michigan: Inflation Expectation© [MICH], retrieved from FRED, Federal Reserve Bank of St. Louis https://fred.stlouisfed.org/series/MICH/, (October 23, 2021)
