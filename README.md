@@ -30,4 +30,11 @@ Having seen the graph of a statistically insignificant variable (pre-multiple re
 [Project instructions](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_02)
 
 10Y Treasury data citation:
-Organization for Economic Co-operation and Development, Long-Term Government Bond Yields: 10-year: Main (Including Benchmark) for the United States [IRLTLT01USM156N], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/IRLTLT01USM156N, October 23, 2021.
+
+OECD, "Main Economic Indicators - complete database", Main Economic Indicators (database),http://dx.doi.org/10.1787/data-00052-en (October 23, 2021)
+Copyright, 2016, OECD. Reprinted with permission.
+
+Change in CPI data citation:
+
+OECD, "Main Economic Indicators - complete database", Main Economic Indicators (database),http://dx.doi.org/10.1787/data-00052-en (October 23, 2021)
+Copyright, 2016, OECD. Reprinted with permission.
