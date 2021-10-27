@@ -1,12 +1,12 @@
 # Predicting 10-Year Treasury Yields
 
-Intitially, I wanted to see if the volatility in the stock market, represented by the VIX index ([data source](https://fred.stlouisfed.org/series/VIXCLS)), had a tangible impact on 10-Year Treasury yields ([data source](https://fred.stlouisfed.org/series/IRLTLT01USM156N)). Below are the results of my exploration of the VIX's effect on 10Y yields:
+Intitially, I wanted to see if the volatility in the stock market, represented by the VIX index, had a tangible impact on 10-Year Treasury yields. Below are the results of my exploration of the VIX's effect on 10Y yields:
 
 ## Line Graph Comparing VIX Price and Yield over the last 31 years
 
 ![VIX and Yield TS](vix_yield_line.png)
 
-As can be seen in the above graph, there doesn't seem to be much correlation off the bat, simply looking at their annual trends. Overall, yields seem to have dropped quite dramatically over the last 31 years, with not much reaction to major changes in volatility. Meanwhile, VIX has had a more dramatic journey, with plenty of large ups and downs. Although it doesn't seem like much of a correlation from this view, it would be more beneficial to look at a scatter plot and create a regression line to be sure.
+As can be seen in the above graph, there doesn't seem to be much correlation off the bat, simply looking at their annual trends. Overall, yields ([data source](https://fred.stlouisfed.org/series/IRLTLT01USM156N)) seem to have dropped quite dramatically over the last 31 years, with not much reaction to major changes in volatility. Meanwhile, VIX ([data source](https://fred.stlouisfed.org/series/VIXCLS)) has had a more dramatic journey, with plenty of large ups and downs. Although it doesn't seem like much of a correlation from this view, it would be more beneficial to look at a scatter plot and create a regression line to be sure.
 
 ## VIX vs. Yield Scatter Plot
 
@@ -25,7 +25,7 @@ The new data was quite interesting. I had expected the change in CPI and inflati
 
 ![ir vs. yield](intrate_vs_yield.png)
 
-Having seen the graph of a statistically insignificant variable (pre-multiple regression), I wanted to plot a scatter plot of an extremely significant variable to see the contrast. It is clear that there is a clear positive relationship between interest rate and the 10-Year Treasury yield. The regression line: ```10-Year Treasury Yield = 2.31 + 0.73(Interest Rate)``` indicates that an increase in interest rate of 1 percentage point leads to a 0.73 percentage point increase in the yield. It is possible for rates to come down to 0, so the y-intercept indicates that the 10Y Treasury Note yields 2.31% when the interest rate hits 0. The constrast between the two red regression lines, as well as the distribution of the dots shown in the two scatter plots is quite clear, indicating how statistically significant the two variables are comparitavely.
+Having seen the graph of a statistically insignificant variable (pre-multiple regression), I wanted to plot a scatter plot of an extremely significant variable to see the contrast. It is clear that there is a clear positive relationship between interest rate ([data source](https://fred.stlouisfed.org/series/FEDFUNDS)) and the 10-Year Treasury yield ([data source](https://fred.stlouisfed.org/series/IRLTLT01USM156N)) . The regression line: ```10-Year Treasury Yield = 2.31 + 0.73(Interest Rate)``` indicates that an increase in interest rate of 1 percentage point leads to a 0.73 percentage point increase in the yield. It is possible for rates to come down to 0, so the y-intercept indicates that the 10Y Treasury Note yields 2.31% when the interest rate hits 0. The constrast between the two red regression lines, as well as the distribution of the dots shown in the two scatter plots is quite clear, indicating how statistically significant the two variables are comparitavely.
 
 [Project instructions](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_02)
 
